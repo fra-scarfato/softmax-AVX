@@ -63,5 +63,13 @@ The project can be compiled and executed using the provided `Makefile` or by run
 # Compile all versions and the benchmark
 make
 
-# Run the benchmark
-./softmax_benchmark
+# Run the baseline version
+./softmax_plain <input_size>
+
+# Run the AVX version
+./softmax_avx <input_size>
+
+# Run the compiler auto-optimized version
+./softmax_auto <input_size>
+ 
+
