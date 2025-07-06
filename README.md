@@ -71,5 +71,10 @@ make
 
 # Run the compiler auto-optimized version
 ./softmax_auto <input_size>
+```
  
+***
+
+## Report
+The report with the implementation details and results can be found [here](softmax-report.pdf).
 
